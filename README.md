@@ -35,4 +35,4 @@ O layout foi desenvolvido para se adaptar a diferentes dispositivos:
 ✅ Projeto funcional
 
 <img src="https://github.com/harmannyoficial/conversor-de-moedas/blob/main/assets.jpeg/Captura%20de%20tela%202026-03-24%20021524.png?raw=true"/>
-<img src=/>
+<img src="https://github.com/harmannyoficial/conversor-de-moedas/blob/main/assets.jpeg/Captura%20de%20tela%202026-03-24%20021549.png?raw=true"/>
