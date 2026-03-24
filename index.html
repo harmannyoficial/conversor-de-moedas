@@ -9,64 +9,56 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
- </head>
+    
+</head>
 
  <body>
 
-    <div class="conteiner">
-        <img class="logoimg" src="/img.jpeg/0b855c3cee7fbceab7a89831e6096fe140b43ca9.gif" alt="Conversor de moedas" >
+    <div id="conteiner">
+        <img id="logoimg" src="./assets.jpeg/0b855c3cee7fbceab7a89831e6096fe140b43ca9.gif" alt="Conversor de moedas" >
         
-        <div class="conteinercentro">
+        <div id="conteinercentro">
             
             
-            <div class="conversor">
+            <div id="conversor">
                 <h1>Conversor de moedas</h1>
 
-                <div class="d1">  
-                    <p>Selecione as moedas:</p>
-                    <select  id=" select1">
-                        <option value="USD">Dólar Americano (USD)</option>
-                        <option value="EUR">Euro (EUR)</option>
-                        <option value="GBP">Libra Esterlina (GBP)</option>
-                        <option value="JPY">Iene Japonês (JPY)</option>
-                        <option value="AUD">Dólar Australiano (AUD)</option>
-                        <option value="CAD">Dólar Canadense (CAD)</option>
-                        <option value="CHF">Franco Suíço (CHF)</option>
-                        <option value="CNY">Yuan Chinês (CNY)</option>
-                        <option value="BRL" selected>Real Brasileiro (BRL)</option>
+                <div id="d1">  
+                    <p>Selecione as moedas de:</p>
+
+ <!--   SITE DAS IMAGEM DA BANDEIRAS  
+                    https://icon-icons.com/pt/icones/busca/bandeira-->
+                    <select id="select1">
+                       <!--para que o java reconheça a imagem precisa adicionar  data-img= -->
+                        <option class="USD"value="5.24" data-img="https://images.icon-icons.com/97/PNG/96/united_states_flags_flag_17080.png" >Dólar Americano (USD)</option>
+                        <option class="EUR"value="7" data-img="https://images.icon-icons.com/97/PNG/96/europe_flags_flag_16997.png">Euro (EUR)</option>
+                        <option class="BRL"value="1" data-img="https://images.icon-icons.com/97/PNG/256/brazil_flags_flag_16979.png" selected>Real Brasileiro (BRL)</option> 
                     </select>
                 </div> 
 
-                <div class="d2"> 
-                    <p>Selecione as moedas:</p>
+                <div id="d2"> 
+                    <p>Selecione as moedas para:</p>
                     <select  id="select2">
-                        <option value="USD" selected>Dólar Americano (USD)</option>
-                        <option value="EUR">Euro (EUR)</option>
-                        <option value="GBP">Libra Esterlina (GBP)</option>
-                        <option value="JPY">Iene Japonês (JPY)</option>
-                        <option value="AUD">Dólar Australiano (AUD)</option>
-                        <option value="CAD">Dólar Canadense (CAD)</option>
-                        <option value="CHF">Franco Suíço (CHF)</option>
-                        <option value="CNY">Yuan Chinês (CNY)</option>
-                        <option value="BRL">Real Brasileiro (BRL)</option>
+                        <option class="USD" value="5.24" data-img="https://images.icon-icons.com/97/PNG/96/united_states_flags_flag_17080.png" >Dólar Americano (USD)</option>
+                        <option class="EUR" value="7" data-img="https://images.icon-icons.com/97/PNG/96/europe_flags_flag_16997.png"selected>Euro (EUR)</option>
+                        <option class="BRL" value="1" data-img="https://images.icon-icons.com/97/PNG/256/brazil_flags_flag_16979.png" >Real Brasileiro (BRL)</option>
                     </select>
                 </div>
 
-                <div class="d3">
+                <div id="d3">
                     <h3>Valor:</h3>
-                    <input type="number" id="valor" placeholder="Valor"><br>
+                    <input id= "input1" placeholder=" Digite o valor" type="number">
                 </div>
 
-                <button>CONVERTER</button>
+                <button id="button">CONVERTER</button>
 
                 <div>
+                    <img class="bandeira1" src="https://images.icon-icons.com/97/PNG/96/united_states_flags_flag_17080.png" >
+                    <h4 id="rselect1">R$ 00.00</h4>
 
+                    <img class="bandeira2"src="https://images.icon-icons.com/97/PNG/96/united_states_flags_flag_17080.png" > 
+                    <h4 id="rselect2">R$ 00.00</h4>
                     
-                    <h5 id="resultado">valor de:</h5>
-                    <input type="number">
-
-                    <h5 id="resultado"> valor para:</h5>
-                    <input type="number">
                 </div>
             </div>
         </div>    
@@ -74,5 +66,6 @@
     </div>
     
  </body>
- <script src="/script.js"></script>
+
+ <script src="./arquivo.js"></script>
  </html>

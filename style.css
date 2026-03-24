@@ -6,12 +6,12 @@
     font-family: "open sans", sans-serif;
 }
 
-.conteiner{
+#conteiner{
     height: 100vh;
     width: 100vw;
 }
 
-.logoimg{
+#logoimg{
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
@@ -19,27 +19,37 @@
     position:relative;
 }
 
-.conteinercentro{
+#conteinercentro{
     border-radius: 15%;
     width: 35%;
-    height: 80%;
+    height: 90%;
     position: absolute;
-    top: 15%;
+    top: 8%;
     right: 34%;
     background: rgb(254, 252, 252, .9)
 }
 
-.conversor{
-    font-size:90%;
+
+#conversor{
+    font-size:80%;
     text-align: center;
     position: relative;
     top: 3%;
 }
+
+
+h1{ margin-bottom: 10px;}
+h3{ margin:10px}
+h4{ font-size:20px;}
+p{  margin:10px;}
+
 select,input{
-    height: 40px;
+    text-align: center;
+    height: 30px;
     width: 60%;
-    border: none;
     font-weight: 700;
+    cursor: pointer;
+    border: none;
 }
 
 button{
@@ -50,26 +60,35 @@ button{
     background: slateblue;
     color: white;
     font-weight: 900;
-    letter-spacing: 2px;}
+    letter-spacing: 2px;
+    cursor: pointer;}
+
     button:hover {opacity: 0.5;}  
     button:active{opacity: 0.2;}
 
 
+.bandeira1, .bandeira2{
+    height: 40px;
+   
+}
+
+
+
 @media screen and (max-width: 950px){
 
-    .conteiner{
+    #conteiner{
     width: 100vw;
     height: 100vh;
     }
 
-    .logoimg{
+    #logoimg{
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
     width: 100vw;
     }
 
-    .conteinercentro{
+    #conteinercentro{
     border-radius: 6%;
     width: 80%;
     height: 75vh;
@@ -78,7 +97,7 @@ button{
     background: rgb(254, 252, 252, .9)
     }
 
-    .conversor{
+    #conversor{
     font-size:70%;
     text-align: center;
     position: relative;
